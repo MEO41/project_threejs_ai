@@ -1,13 +1,14 @@
 {
-  "homepage": "http://meo41.github.io/project_threejs_ai",
+  "homepage": "http://MEO41.github.io/project_threejs_ai",
   "name": "client",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "dev": "vite",
+    "start": "npm run dev",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -34,6 +35,7 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "postcss": "^8.4.30",
     "tailwindcss": "^3.3.3",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "gh-pages": "^6.0.0"
   }
 }
